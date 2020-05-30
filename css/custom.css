@@ -1,0 +1,140 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Dialog,Cambria;
+
+}
+
+body{
+    background-color:white;
+}
+.card{
+    padding:0px;
+}
+.card-title{
+    color: white;
+    background-color: #10707f;
+    text-align: center;
+
+}
+.navbar{
+    height: 70px;
+    width: 100%;
+    /*overflow: hidden;*/
+
+ }
+#particles-js{
+    width: 100% !important;
+    height: 100%!important;
+    z-index: 2;
+    padding: 0px;
+}
+/*.welcome{*/
+    /*position: absolute;*/
+    /*margin-left: 200px;*/
+    /*margin-top: 50px;*/
+/*}*/
+.list-group-item:hover{
+    background-color: #10707f;
+    cursor: pointer;
+    color: white;
+}
+.list-group-item{
+
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 2px solid black;
+    padding: 20px;
+
+}
+.list-group-item a{
+    color: black;
+}
+
+
+.flag{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    transform: translate(-1000px);
+    transition: all 500ms ease-in;
+    margin-left: 5px;
+}
+.flag:hover{
+    cursor: pointer;
+    transform: translateY(10px);
+}
+/*.country{*/
+    /*width: 50px;*/
+    /*font-size: 15px;*/
+
+/*}*/
+.flag_control{
+    width: 35px;
+    height: 35px;
+    border-radius: 18px;
+    /*background-color: white;*/
+    overflow: hidden;
+}
+.flag_img{
+    width: inherit;height: inherit;
+}
+.flag_text{
+    border-top: 2px solid gainsboro;
+    width: 100%;
+    font-size: 10px;
+    position: relative;
+    color: white;
+}
+.flag1{
+    left:150px;
+
+}
+.flag2{
+    left:220px;
+
+}
+.flag3{
+    left: 290px;
+
+}
+.flag4{
+    left: 360px;
+}
+.flag5{
+    left:430px;
+
+}
+.dropdown-menu{
+    min-width: 3rem;
+}
+.flag6{
+    left: 500px;
+}
+.flag7{
+    left: 570px;
+}
+
+.show{
+    transform: translate(0px);
+
+}
+.none{
+    display: none;
+}
+.foot a{
+    color: black;
+}
+#admin{
+    text-decoration: none;
+    color:black;
+}
+.f{
+    border-top:2px solid white;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+}
